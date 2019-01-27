@@ -4,7 +4,6 @@
 
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
-#include "GameFramework/Actor.h"
 #include "Engine/TriggerVolume.h"
 #include "OpenDoor.generated.h"
 
@@ -35,7 +34,6 @@ private:
 	UPROPERTY(EditAnywhere)
 	ATriggerVolume* PressurePlate;
 
-	UPROPERTY(EditAnywhere)
 	AActor* ActorThatOpens;
 
 	
